@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     strategy:
@@ -29,8 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-   
-  - name: Create .env file
+    - name: Create .env file
       run: |
         touch .env
         echo "${{ secrets.NODE_ENV_FILE }}" > .env

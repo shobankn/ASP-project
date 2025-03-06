@@ -1,0 +1,6 @@
+2025-03-05T08:39:17.259Z [31merror[39m: Server error during registration: User is not defined
+2025-03-05T08:40:28.097Z [31merror[39m: Server error during registration: User validation failed: username: Path `username` is required.
+2025-03-05T08:41:17.223Z [31merror[39m: Server error during registration: Cannot set headers after they are sent to the client
+2025-03-05T08:41:38.333Z [31merror[39m: Server error during registration: Cannot set headers after they are sent to the client
+2025-03-05T08:42:11.823Z [31merror[39m: Server error during registration: Cannot set headers after they are sent to the client
+2025-03-05T08:44:16.965Z [31merror[39m: Server error during registration: Cannot set headers after they are sent to the client
